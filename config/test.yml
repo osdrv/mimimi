@@ -1,0 +1,8 @@
+test:
+  some_array:
+    - elem1
+    - elem2
+    - elem3
+  some_hash:
+    key1: [ subkey1, subkey2, subkey3, subkey4 ]
+    key2: just a string

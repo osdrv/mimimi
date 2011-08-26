@@ -13,15 +13,13 @@ require 'rake'
 
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
-  # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "mimimi"
   gem.homepage = "http://github.com/4pcbr/mimimi"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{config yaml files → openstruct}
+  gem.description = %Q{Creates a singletone openstruct item from all your config yaml files }
   gem.email = "i4pcbr@gmail.com"
   gem.authors = ["4pcbr"]
-  # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
 
