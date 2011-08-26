@@ -1,5 +1,5 @@
 source "http://rubygems.org"
-gem "rails", ">= 0"
+gem "rails", "~> 2.3.5"
 group :development do
   gem "rspec", "~> 2.3.0"
   gem "bundler", "~> 1.0.0"
